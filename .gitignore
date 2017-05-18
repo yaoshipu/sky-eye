@@ -12,3 +12,12 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+# Dependencies
+src/github.com
+src/gotlang.org
+src/gopkg.in
+
+# Folders
+pkg/
+bin/

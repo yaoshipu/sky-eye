@@ -1,0 +1,47 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "go.buildOnSave": true,
+    "go.lintOnSave": true,
+    "go.vetOnSave": false,
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.formatOnSave": true,
+    "go.formatTool": "goimports",
+    "go.goroot": "/usr/local/goroot/1.8.1",
+    "go.toolsGopath": "/usr/local/gopath",
+    "go.gopath": "/usr/local/gopath:/Users/shipu/Workspace/sky-eye",
+    "go.gocodeAutoBuild": false,
+    "editor.formatOnSave": false,
+    "json.schemas": [{
+        "title": "JSON schema for DNX configuration files",
+        "$schema": "http://json-schema.org/draft-04/schema#",
+
+        "type": "object",
+
+        "properties": {
+            "Data": {
+                "type": "object"
+            }
+        }
+    }],
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "vetur.format.html.max_preserve_newlines": 1,
+
+    "vetur.format.html.preserve_newlines": true,
+
+    "vetur.format.html.wrap_line_length": 200,
+
+    "vetur.format.html.wrap_attributes": "auto",
+
+    "vetur.format.css.newline_between_rules": true,
+
+    // Whether existing line breaks before elements should be preserved (only works before elements, not inside tags or for text)
+    "vetur.format.css.preserve_newlines": true,
+
+    // Add a space before function parenthesis
+    "vetur.format.js.InsertSpaceBeforeFunctionParenthesis": false
+
+}
